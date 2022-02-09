@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Zenfone 2 (and platform) -->
+  <project name="MichaelArthurLong/android_device_asus_Z00A"        path="device/asus/Z00A"        revision="hybris-12.1" />
+  <project name="MichaelArthurLong/android_device_asus_mofd-common" path="device/asus/mofd-common" revision="hybris-12.1" />
+  <project name="MichaelArthurLong/android_kernel_asus_moorefield"  path="kernel/asus/moorefield"  revision="hybris-12.1" />
+  <project name="TheMuppets/proprietary_vendor_asus"                path="vendor/asus"             revision="cm-12.1" />
+  <!-- Mer -->
+  <project name="MichaelArthurLong/droid-hal-z00a"                  path="rpm/"                    revision="master" />
+  <project name="MichaelArthurLong/droid-config-z00a"               path="hybris/droid-configs"    revision="master" />
+  <project name="MichaelArthurLong/droid-hal-version-z00a"          path="hybris/droid-hal-version-z00a"    revision="master" />
+  <!-- Intel-specific CyanogenMod Dependencies; commented out in Sailfish's default.xml ATTOW -->
+  <project name="CyanogenMod/android_hardware_akm"                  path="hardware/akm"                           groups="pdk" />
+  <project name="CyanogenMod/android_hardware_broadcom_libbt"       path="hardware/broadcom/libbt"                groups="pdk" />
+  <project name="CyanogenMod/android_hardware_broadcom_wlan"        path="hardware/broadcom/wlan"                 groups="broadcom_wlan" />
+  <project name="CyanogenMod/android_hardware_cm"                   path="hardware/cm" />
+  <project name="platform/hardware/intel/audio_media"               path="hardware/intel/audio_media"             groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/bootstub"                  path="hardware/intel/bootstub"                groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/common/bd_prov"            path="hardware/intel/common/bd_prov"          groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/common/libmix"             path="hardware/intel/common/libmix"           groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/common/libstagefrighthw"   path="hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/common/libva"              path="hardware/intel/common/libva"            groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/common/libwsbm"            path="hardware/intel/common/libwsbm"          groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/common/omx-components"     path="hardware/intel/common/omx-components"   groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/common/utils"              path="hardware/intel/common/utils"            groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/common/wrs_omxil_core"     path="hardware/intel/common/wrs_omxil_core"   groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/img/hwcomposer"            path="hardware/intel/img/hwcomposer"          groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/img/libdrm"                path="hardware/intel/img/libdrm"              groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/img/psb_headers"           path="hardware/intel/img/psb_headers"         groups="intel" remote="aosp" />
+  <project name="platform/hardware/intel/img/psb_video"             path="hardware/intel/img/psb_video"           groups="intel" remote="aosp" />
+  <project name="CyanogenMod/android_hardware_invensense"           path="hardware/invensense"                    groups="invensense" />
+</manifest>
