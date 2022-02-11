@@ -29,4 +29,8 @@
   <project name="platform/hardware/intel/img/psb_headers"           path="hardware/intel/img/psb_headers"         groups="intel" remote="aosp" />
   <project name="platform/hardware/intel/img/psb_video"             path="hardware/intel/img/psb_video"           groups="intel" remote="aosp" />
   <project name="CyanogenMod/android_hardware_invensense"           path="hardware/invensense"                    groups="invensense" />
+  <!-- Replace hybris-boot with one that passes 2ndbootloader, required by Intel Medfield platforms and its descendants -->
+  <!-- this one also has the partition table for z00a -->
+  <remove-project name="mer-hybris/hybris-boot" />
+  <project name="MichaelArthurLong/hybris-boot"                     path="hybris/hybris-boot"      revision="2ndbootloader" />
 </manifest>
